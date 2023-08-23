@@ -1,0 +1,272 @@
+body{
+      background-color: lightseagreen;
+      
+}
+ #coluna1{
+  
+ }
+ .c1{
+    border-radius: 50px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+  
+
+ }
+ .q1{
+  background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
+  animation-name: q1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  
+}
+
+ .q2{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: q2 2s;
+    animation-fill-mode: forwards;
+ }
+ .q3{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  animation: q3 3s;
+  animation-fill-mode: forwards;
+ }
+ 
+ .q4{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: q4 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+ }
+ .q5{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  animation: q5 1s forwards, q50 2s forwards 3s; 
+
+ }
+ .q6{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: q6 2s forwards , q60 2s forwards 3s;
+ }
+ .q7{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: q7 3s forwards, q70 2s forwards 3s;
+ }
+ 
+ .q8{
+    background: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: q8 2s forwards 3s, q80 2s forwards 5s;
+ }
+ 
+ 
+ .q10{
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    animation: q10 2s forwards, q100 2s forwards 3s, q1000 2s forwards 5s;
+ }
+ 
+ 
+ @keyframes q1{
+from
+{
+  top:150px;
+}
+to
+{
+ top:254px;
+}
+ }
+ @keyframes q2{
+   from
+   {
+     top:150px;
+   }
+   to
+   {
+    top:358px;
+   }
+    }
+    @keyframes q3{
+      from
+      {
+        top:150px;
+      }
+      to
+      {
+       top: 462px;
+      }
+       }
+       @keyframes q4{
+         from
+         {
+           left:500px;
+         }
+         to
+         {
+          left: 604px;
+
+         }
+      }
+          @keyframes q5{
+            from
+            {
+              top:150px; 
+            }
+            to
+            {
+             top: 254px; 
+            }
+         }
+         @keyframes q50{
+            from
+            {
+               left:500px;
+            }
+            to
+            {
+            left: 604px;
+            }
+         }     
+         @keyframes q6{
+            from
+            {
+              top:150px; 
+            }
+            to
+            {
+             top: 358px; 
+            }
+         }
+         @keyframes q60{
+            from
+            {
+               left:500px;
+            }
+            to
+            {
+            left: 604px;
+            }
+         } 
+         @keyframes q7{
+            from
+            {
+              top:150px; 
+            }
+            to
+            {
+             top: 462px; 
+            }
+         }
+         @keyframes q70{
+            from
+            {
+               left:500px;
+            }
+            to
+            {
+            left: 604px;
+            }
+         }
+         @keyframes q8{
+            from
+            {
+               left:500px;
+            }
+            to
+            {
+            left: 604px;
+            }
+         }   
+         @keyframes q80{
+            from
+            {
+               left:604px;
+            }
+            to
+            {
+            left: 708px;
+            }
+         }                        
+         @keyframes q10{
+            from
+            {
+              top:150px;
+            }
+            to
+            {
+             top:358px;
+            }
+             }  
+             @keyframes q100{
+               from
+               {
+                  left:500px;
+               }
+               to
+               {
+               left: 604px;
+               }
+            } 
+            @keyframes q1000{
+               from{
+                  left:604px;
+               }
+               to{
+                  left:708px;
+               }
+            } 
